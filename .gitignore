@@ -46,6 +46,7 @@ web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+typings/
 
 # Optional npm cache directory
 .npm
@@ -124,6 +125,7 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+/dist
 
 # pnpm
 .pnpm-store
@@ -141,3 +143,7 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+\#*#
+.idea
+.vscode
